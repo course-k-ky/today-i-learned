@@ -8,9 +8,12 @@ tsconfig.jsonの"baseUrl": ".",
 vite.config.tsのbase: "./",
 package.jsonのhomepage:"./"
 
+```React
 <BrowserRouter basename="./">
-
+```
 s3のホスティングとreact-routerは相性が悪いらしい
 https://qiita.com/kurakura-t/items/74bd4e7951e3114126fd
 
 色々設定が必要
+### ReactRouterでどうやってルーティングしているか
+https://blog.ojisan.io/s3-spa-deploy/

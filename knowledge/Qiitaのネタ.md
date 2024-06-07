@@ -17,3 +17,7 @@ https://qiita.com/kurakura-t/items/74bd4e7951e3114126fd
 色々設定が必要
 ### ReactRouterでどうやってルーティングしているか
 https://blog.ojisan.io/s3-spa-deploy/
+
+https://sb-blog.link/archives/281
+
+https://qiita.com/seapolis/items/0afd49d24b12749d93ab

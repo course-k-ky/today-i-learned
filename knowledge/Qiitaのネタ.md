@@ -21,3 +21,5 @@ https://blog.ojisan.io/s3-spa-deploy/
 https://sb-blog.link/archives/281
 
 https://qiita.com/seapolis/items/0afd49d24b12749d93ab
+
+### /と/index.htmlのちがい

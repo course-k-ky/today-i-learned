@@ -23,3 +23,6 @@ https://sb-blog.link/archives/281
 https://qiita.com/seapolis/items/0afd49d24b12749d93ab
 
 ### /と/index.htmlのちがい
+
+### eventのtargetとcurrentTargetの違い
+valueが取れたりとれなかったりする

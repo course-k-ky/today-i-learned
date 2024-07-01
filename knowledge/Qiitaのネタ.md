@@ -26,3 +26,5 @@ https://qiita.com/seapolis/items/0afd49d24b12749d93ab
 
 ### eventのtargetとcurrentTargetの違い
 valueが取れたりとれなかったりする
+
+### Reactでデバッグできるようにする

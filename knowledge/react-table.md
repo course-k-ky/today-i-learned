@@ -1,2 +1,3 @@
 そもそもこれはTanStack Tableに移行した
-z
+TypeScriptとの相性が悪い
+一応それらしい型定義が用意されているが、usePagenationなどのプラグインは使えない

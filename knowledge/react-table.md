@@ -142,3 +142,52 @@ export type TableMouseEventHandler<T extends Record<string, unknown>> = (instanc
 
 ### filterTypesについて
 カスタムフィルター関数を提供する
+
+```typescript
+<TableHead sx={{ borderTopWidth: 2 }}>
+
+{headerGroups.map((headerGroup) => {
+
+return (
+
+<TableRow {...headerGroup.getHeaderGroupProps()}>
+
+{headerGroup.headers.map((column) => {
+
+return (
+
+// @ts-ignore
+
+<TableCell {...column.getHeaderProps([{ className: column.className }, getHeaderProps(column)])}>
+
+<HeaderSort column={column} />
+
+</TableCell>
+
+);
+
+})}
+
+</TableRow>
+
+);
+
+})}
+```
+### useTable
+#### getTableProps
+
+#### headerGroups
+
+##### getHeaderGroupProps
+
+##### headers
+
+##### getHeaderProps
+
+##### className
+
+#### getTableBodyProps
+
+#### prepareRow
+

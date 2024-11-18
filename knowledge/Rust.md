@@ -4,3 +4,10 @@
 
 ### びっくりしたこと、感想
 変数をそのまま出力できないっぽい
+
+stringキモすぎ
+&str→不変
+String→mutで宣言されていれば可変
+Stringの生成
+String::from("");
+"".to_string();

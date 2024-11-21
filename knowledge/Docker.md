@@ -1,0 +1,5 @@
+Dockerfileを元にDockerイメージが作られる
+Dockerfileを更新したら、イメージを再構築しないと行けない
+docker compose build
+
+ビルドしたらすでにあるコンテナはどうなるの？

@@ -53,8 +53,44 @@
 	Cは自分で開放する必要があるのでメモリリークが起きる
 	Rustはどちらでもないやりかたでメモリ管理している
 
+### 学び
+#### 構造体
+structで宣言、classっぽいがちょっと違う?
+classはnewして使うが、newしなくても使える
+struct内には関数は定義できない
+関数はimplに定義
+implは単独では存在できないぽい
+structで定義済のものをimpl
+構造体のメソッドには、&self引数が必要
+これがないと呼び出せない
 
+&selfをつけない場合には型関連関数として識別される
+これはインスタンス化が必要ない
+構造体名 :: 関数名で呼び出せる
+コンストラクタ定義とかに使う
 
+コンストラクタを定義する場合にはnewという関数名で定義するのが一般的
+```rust
+fn main() {
+    let rect = Rectangle {
+        width: 10,
+        height: 8,
+    };
+
+    let newRect = Rectangle::new(10, 8);
+}
+impl Rectangle {
+    fn new(width: i32, height: i32) -> Self {
+        Rectangle { width, height }
+    }
+}
+
+struct Rectangle {
+    width: i32,
+    height: i32,
+}
+```
+コンストラクタを通してインスタンス化するのと、直接インスタンス化するの何が違うんだ
 
 ### わからないこと
 #### 型推論

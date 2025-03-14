@@ -15,3 +15,8 @@ return parent.filter((keyword: string) => keyword === value).length <= 1;
 
 })
 ```
+
+
+### 特殊なプロパティ
+parentとfrom
+ofとかtestとかで参照できるものが違う

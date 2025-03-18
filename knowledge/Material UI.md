@@ -1,3 +1,8 @@
+### Autocomplete
+getFieldPropsがあるとエラーが出てた
+→要調査
+isOptionEqualToValueが必要なときとそうじゃないとき
+isOptionEqualToValueを入れて、getFieldPropsを消すときれいになった？
 ### Button
 #### variant
 text/contained/outlined

@@ -19,3 +19,9 @@ git checkout 子ブランチ名
 git merge 親ブランチ名
 ```
 ※rebaseでもできるらしい
+
+ローカルブランチの一覧をすべて表示する
+```shell
+git branch
+```
+

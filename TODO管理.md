@@ -1,3 +1,4 @@
 # 日々のTODO
 # 臨時のTODO
-LINE Green Badghe
+LINE Green Badge
+AmplifyのほかでpushしたやつをAPI.tsとgraphqlフォルダだけ引き継ぐ方法
